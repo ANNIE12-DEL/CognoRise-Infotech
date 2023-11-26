@@ -79,17 +79,7 @@ missing_values_summary# No missing values
 
 
 # **6. Identify Outliers in the numerical columns**
-# 
-# Outliers are values that are unusually high or low compared to the majority of the data points.
-# Identifying outliers is important in data analysis because they can distort statistical analyses, affect the assumptions of many statistical models, and impact the overall interpretation of results.
-# 
-# 1: **Plot boxplot**-The boxplot provides a visual representation of the distribution of each variable.
-#                  Outliers can be visually identified as points beyond the whiskers of the boxplots.
-#                  
-# 2: **Calculate z score** - Z-scores are calculated for each data point in your numerical columns.
-#                        A z-score measures how many standard deviations a data point is from the mean
-#                        
-# 3: **Rows with z-scores greater than 3 in at least one variable are considered outliers**
+
 
 # In[10]:
 
